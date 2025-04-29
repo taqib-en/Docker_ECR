@@ -1,11 +1,8 @@
 # Use official Node.js base image
 FROM node:18-slim
 
-# Use root user
-USER root
-
 # Create writable directory first
-RUN mkdir -p /app
+# RUN mkdir -p /app
 WORKDIR /app
 
 # Now continue
